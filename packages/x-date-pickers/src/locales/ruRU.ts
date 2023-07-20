@@ -55,7 +55,7 @@ const ruRUPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Номер недели',
   calendarWeekNumberHeaderText: '№',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Неделя ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

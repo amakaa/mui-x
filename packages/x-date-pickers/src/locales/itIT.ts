@@ -56,7 +56,7 @@ const itITPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Numero settimana',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Settimana ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

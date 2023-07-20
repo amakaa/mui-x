@@ -54,7 +54,7 @@ const svSEPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Vecka nummer',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Vecka ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

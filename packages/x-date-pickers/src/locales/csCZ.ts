@@ -55,7 +55,7 @@ const csCZPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Týden v roce',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `${weekNumber} týden v roce`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

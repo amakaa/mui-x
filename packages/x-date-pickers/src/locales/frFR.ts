@@ -56,7 +56,7 @@ const frFRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Semaine',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Semaine ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

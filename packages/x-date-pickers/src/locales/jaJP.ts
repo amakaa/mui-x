@@ -57,7 +57,7 @@ const jaJPPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: '週番号',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `${weekNumber}週目`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

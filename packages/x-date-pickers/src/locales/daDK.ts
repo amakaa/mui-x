@@ -57,7 +57,7 @@ const daDKPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Ugenummer',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Uge ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

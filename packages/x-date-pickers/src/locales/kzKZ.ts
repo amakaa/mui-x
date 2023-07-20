@@ -55,7 +55,7 @@ const kzKZPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Апта нөмірі',
   calendarWeekNumberHeaderText: '№',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Апта ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

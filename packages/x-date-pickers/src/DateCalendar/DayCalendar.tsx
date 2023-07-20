@@ -603,7 +603,7 @@ export function DayCalendar<TDate>(inProps: DayCalendarProps<TDate>) {
                       utils.getWeekNumber(week[0]),
                     )}
                   >
-                    {localeText.calendarWeekNumberText(utils.getWeekNumber(week[0]))}
+                    {localeText.calendarWeekNumberText(utils.getWeekNumber(week[0]), week)}
                   </PickersCalendarWeekNumber>
                 )}
                 {week.map((day, dayIndex) => (

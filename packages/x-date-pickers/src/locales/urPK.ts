@@ -54,7 +54,7 @@ const urPKPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'ہفتہ نمبر',
   calendarWeekNumberHeaderText: 'نمبر',
   calendarWeekNumberAriaLabelText: (weekNumber) => `ہفتہ ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

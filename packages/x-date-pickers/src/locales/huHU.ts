@@ -57,7 +57,7 @@ const huHUPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Hét',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `${weekNumber}. hét`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

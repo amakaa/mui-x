@@ -33,7 +33,7 @@ export interface PickersComponentAgnosticLocaleText<TDate> {
   calendarWeekNumberHeaderLabel: string;
   calendarWeekNumberHeaderText: string;
   calendarWeekNumberAriaLabelText: (weekNumber: number) => string;
-  calendarWeekNumberText: (weekNumber: number) => string;
+  calendarWeekNumberText: (weekNumber: number, week: number[]) => string;
 
   // View navigation
   openPreviousView: string;

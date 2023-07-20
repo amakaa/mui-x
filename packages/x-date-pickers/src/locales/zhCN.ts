@@ -52,7 +52,7 @@ const zhCNPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: '周数',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `第${weekNumber}周`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

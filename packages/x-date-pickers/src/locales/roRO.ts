@@ -57,7 +57,7 @@ const roROPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Număr săptămână',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Săptămâna ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

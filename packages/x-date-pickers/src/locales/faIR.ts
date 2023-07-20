@@ -56,7 +56,7 @@ const faIRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'عدد هفته',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `هفته ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

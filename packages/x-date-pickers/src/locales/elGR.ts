@@ -56,7 +56,7 @@ const elGRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Αριθμός εβδομάδας',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Εβδομάδα ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>
