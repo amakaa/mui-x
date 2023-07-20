@@ -54,7 +54,7 @@ const plPLPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Numer tygodnia',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Tydzień ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

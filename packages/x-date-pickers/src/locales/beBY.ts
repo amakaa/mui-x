@@ -55,7 +55,7 @@ const beBYPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Нумар тыдня',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Тыдзень ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

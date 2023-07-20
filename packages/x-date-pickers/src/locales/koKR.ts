@@ -56,7 +56,7 @@ const koKRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: '주 번호',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `${weekNumber}번째 주`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

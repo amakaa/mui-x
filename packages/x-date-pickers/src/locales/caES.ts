@@ -56,7 +56,7 @@ const caESPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Número de setmana',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Setmana ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

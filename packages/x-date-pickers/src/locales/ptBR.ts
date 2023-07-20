@@ -56,7 +56,7 @@ const ptBRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Número da semana',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Semana ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

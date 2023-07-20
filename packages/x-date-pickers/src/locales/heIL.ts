@@ -54,7 +54,7 @@ const heILPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'שבוע מספר',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `שבוע ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

@@ -57,7 +57,7 @@ const deDEPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Kalenderwoche',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Woche ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

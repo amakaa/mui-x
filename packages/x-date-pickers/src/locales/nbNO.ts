@@ -54,7 +54,7 @@ const nbNOPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Ukenummer',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Uke ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

@@ -54,7 +54,7 @@ const trTRPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Hafta numarası',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Hafta ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>

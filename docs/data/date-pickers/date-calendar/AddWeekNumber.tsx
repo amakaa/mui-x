@@ -9,7 +9,7 @@ export default function AddWeekNumber() {
       dateAdapter={AdapterDayjs}
       localeText={{
         calendarWeekNumberHeaderText: '#',
-        calendarWeekNumberText: (weekNumber) => `${weekNumber}.`,
+        calendarWeekNumberText: (weekNumber, week) => `${weekNumber}.`,
       }}
     >
       <DateCalendar displayWeekNumber />

@@ -56,7 +56,7 @@ const viVNPickers: Partial<PickersLocaleText<any>> = {
   calendarWeekNumberHeaderLabel: 'Số tuần',
   calendarWeekNumberHeaderText: '#',
   calendarWeekNumberAriaLabelText: (weekNumber) => `Tuần ${weekNumber}`,
-  calendarWeekNumberText: (weekNumber) => `${weekNumber}`,
+  calendarWeekNumberText: (weekNumber, week) => `${weekNumber}`,
 
   // Open picker labels
   openDatePickerDialogue: (value, utils) =>
